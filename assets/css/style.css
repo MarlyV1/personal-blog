@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-image {
+    background-image: url("../images/blog-background.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+header {
+    display: flex;
+}
+
+section {
+    display: flex;
+}

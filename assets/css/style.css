@@ -26,16 +26,3 @@ section {
     flex: 45%;
     margin: 15% 4%
 }
-
-input, textarea {
-    width: 100%;
-    resize: none;
-}
-
-label {
-    font-weight: bold;
-}
-
-#content {
-    height: 80px;
-}

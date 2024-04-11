@@ -1,0 +1,12 @@
+input, textarea {
+    width: 100%;
+    resize: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+#content {
+    height: 80px;
+}

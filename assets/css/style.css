@@ -4,6 +4,8 @@
 
 body {
     display: flex;
+    border: 10px double rgb(66, 66, 66);
+    overflow: hidden;
 }
 
 .header-image {
@@ -14,15 +16,20 @@ body {
 }
 
 header {
-    color: white;
+    color: rgb(66, 66, 66);
     border-radius: 60%;
     text-align: center;
     padding: 20%;
-    margin: 30px 40px;
-    
+    margin: 20px 40px;
+    font-size: large;
 }
 
 section {
     flex: 45%;
-    margin: 15% 4%
+    margin: 9% 4%;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;  
 }

@@ -10,3 +10,12 @@ label {
 #content {
     height: 80px;
 }
+
+input[type=submit]{
+    background-color: rgba(158, 169, 179, 0.966);
+    color: white;
+    border: medium ridge ;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

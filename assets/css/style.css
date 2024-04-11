@@ -14,9 +14,8 @@ body {
 }
 
 header {
-    flex: 55%;
     color: white;
-    border-radius: 80%;
+    border-radius: 60%;
     text-align: center;
     padding: 20%;
     margin: 30px 40px;
@@ -25,5 +24,18 @@ header {
 
 section {
     flex: 45%;
-   
+    margin: 15% 4%
+}
+
+input, textarea {
+    width: 100%;
+    resize: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+#content {
+    height: 80px;
 }

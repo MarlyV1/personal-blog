@@ -5,17 +5,30 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 header {
     border-bottom: 10px double black;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 15px;   
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+button {
+    position: absolute;
+    left: 95%;
+    top: 40px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 section {
-    border: medium solid black;
-    margin: 10px 0px;
+    border: 2px solid black;
+    margin: 10px 10px;
 }
 
 section h3 {
@@ -26,4 +39,17 @@ section h3 {
 section p {
     margin-left: 30px;
     font-style: italic;
+}
+.posted-by{
+    margin-left: 10px;
+}
+
+.content {
+    height: 5em;
+}
+
+footer {
+    border-top: 10px double black;
+    margin-top: 15px;   
+
 }

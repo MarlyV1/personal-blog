@@ -15,11 +15,11 @@ function formInfo(){
 };
    console.log(formInfo)
 
-//    localStorage.setItem("userInfo", JSON.stringify(formInfo));
+   localStorage.setItem("userInfo", JSON.stringify(formInfo));
 }
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
-    console.log(username.value)
     formInfo();
+    location.href = "./blog.html"
 })

@@ -1,4 +1,4 @@
-input, textarea {
+input, textarea, button {
     width: 100%;
     resize: none;
 }
@@ -11,7 +11,7 @@ label {
     height: 80px;
 }
 
-input[type=submit]{
+button[type=submit]{
     background-color: rgba(158, 169, 179, 0.966);
     color: white;
     border: medium ridge ;
@@ -20,7 +20,7 @@ input[type=submit]{
     font-weight: bold;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
     background-color: rgb(130, 159, 170);
     
 }

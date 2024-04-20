@@ -8,12 +8,31 @@ body {
     overflow: hidden;
 }
 
+body.dark-mode {
+    background-color: rgba(0, 0, 0, 0.901);
+    color: white;
+    border: 10px double white;
+}
+
+body.dark-mode header.header-image {
+    background-image: url("../images/dark-3.jpg") ;
+    color: white;
+    border: medium solid white;
+}
+
+body.dark-mode section {
+    background-image: url("../images/dark-3.jpg");
+    border: thin solid white;
+}
+
 .header-image {
     background-image: url("../images/blog-background.jpg") ;
     background-position: center;
     background-size: cover;
     background-repeat: none;
 }
+
+
 
 header {
     color: rgb(66, 66, 66);
@@ -42,12 +61,12 @@ h2 {
 }
 
 .toggle {
-    position: relative;
+    position: absolute;
     display: inline-block;
     width: 60px;
     height: 34px;
-    /* top: 20px;
-    right: 20px; */
+    top: 25px;
+    right: 25px;
 }
 
 .toggle input {

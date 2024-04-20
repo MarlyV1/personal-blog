@@ -8,6 +8,7 @@ body {
     margin: 0px;
 }
 
+/* Styles the header area of the blog */
 header {
     border-bottom: 10px double black;
     margin-bottom: 15px;   

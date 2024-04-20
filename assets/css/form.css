@@ -1,3 +1,4 @@
+/* Styling of the form */
 section {
     flex: 45%;
     margin: 9% 4%;
@@ -35,6 +36,7 @@ button:hover {
     background-color: rgb(130, 159, 170);
 }
 
+/* Dark mode theme styling for the form */
 body.dark-mode section {
     background-image: url("../images/dark-3.jpg");
     border: thin solid white;

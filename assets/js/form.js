@@ -3,20 +3,7 @@ let title = document.getElementById("title")
 let content = document.getElementById("content")
 const form = document.getElementById("form")
 
-// Object to store the user's information
-
-// function formInfo(){
-//     let formInfo = {
-//     user: username.value,
-//     userTitle: title.value,
-//     userContent: content.value
-// };
-//    console.log(formInfo)
-
-//    localStorage.setItem("userInfo", JSON.stringify(formInfo));
-// }
-
-
+// Collects that user's input and stores them in local storage
 function formInfo(){
 
     let formData = JSON.parse(localStorage.getItem("userInfo")) || [];
@@ -31,7 +18,7 @@ function formInfo(){
    localStorage.setItem("userInfo", JSON.stringify(formData));
 }
 
-
+// After user submits the form, then the formInfo function is invoked and the page go to the blog.html file
 form.addEventListener("submit", (event) => {
     event.preventDefault();
     formInfo();

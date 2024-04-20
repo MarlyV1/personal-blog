@@ -11,7 +11,7 @@ label {
     height: 80px;
 }
 
-button[type=submit]{
+button{
     background-color: rgba(158, 169, 179, 0.966);
     color: white;
     border: medium ridge ;
@@ -20,7 +20,15 @@ button[type=submit]{
     font-weight: bold;
 }
 
-button[type=submit]:hover {
+button:hover {
     background-color: rgb(130, 159, 170);
-    
+}
+
+
+body.dark-mode button {
+    background-color: rgba(0, 0, 0, 0.462);
+}
+
+body.dark-mode button:hover {
+    background-color: rgb(38, 41, 42);
 }

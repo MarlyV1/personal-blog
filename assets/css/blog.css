@@ -26,6 +26,7 @@ button {
     color: white;
 }
 
+/* styles the toggle button */
 .toggle {
     position: absolute;
     display: inline-block;
@@ -81,10 +82,10 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 
-
+/* Styles the blog content sections */
 section {
     border: 2px solid black;
-    margin: 10px 10px;
+    margin: 20px 15px;
 }
 
 section h3 {
@@ -106,6 +107,47 @@ section p {
 
 footer {
     border-top: 10px double black;
-    margin-top: 15px;   
+}
 
+footer p, h4 {
+    margin: 15px 20px;
+    font-style: italic;
+}
+
+footer a {
+    color: black;
+}
+
+/* Styling for the dark mode */
+body.dark-mode {
+    background-color: rgba(0, 0, 0, 0.901);
+    color: white;
+}
+
+body.dark-mode header {
+    border-bottom: 8px ridge white;
+}
+
+
+body.dark-mode button {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode section {
+    border: 2px solid white;
+
+}
+
+body.dark-mode section h3 {
+    border-bottom: 2px solid white;
+
+}
+
+body.dark-mode footer {
+    border-top: 8px ridge white;
+}
+
+body.dark-mode footer a {
+    color: white;
 }

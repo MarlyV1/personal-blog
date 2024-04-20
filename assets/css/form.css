@@ -1,3 +1,14 @@
+section {
+    flex: 45%;
+    margin: 9% 4%;
+    background-image: url("../images/blog-background.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 input, textarea, button {
     width: 100%;
     resize: none;
@@ -24,9 +35,13 @@ button:hover {
     background-color: rgb(130, 159, 170);
 }
 
+body.dark-mode section {
+    background-image: url("../images/dark-3.jpg");
+    border: thin solid white;
+}
 
 body.dark-mode button {
-    background-color: rgba(0, 0, 0, 0.462);
+    background-color: rgba(30, 29, 29, 0.818);
 }
 
 body.dark-mode button:hover {

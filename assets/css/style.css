@@ -20,19 +20,12 @@ body.dark-mode header.header-image {
     border: medium solid white;
 }
 
-body.dark-mode section {
-    background-image: url("../images/dark-3.jpg");
-    border: thin solid white;
-}
-
 .header-image {
     background-image: url("../images/blog-background.jpg") ;
     background-position: center;
     background-size: cover;
     background-repeat: none;
 }
-
-
 
 header {
     color: rgb(66, 66, 66);
@@ -41,18 +34,6 @@ header {
     padding: 20%;
     margin: 20px 40px;
     font-size: large;
-}
-
-section {
-    flex: 45%;
-    margin: 9% 4%;
-    /* background-color: rgba(158, 169, 179, 0.264); */
-    background-image: url("../images/blog-background.jpg");
-    background-position: right;
-    background-size: cover;
-    background-repeat: none;
-    border-radius: 10px;
-    padding: 20px;
 }
 
 h2 {
@@ -87,7 +68,6 @@ h2 {
     transition: .4s;
     border-radius: 34px;
 }
-
 
 .slider:before {
     position: absolute;

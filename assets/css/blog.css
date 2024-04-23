@@ -20,7 +20,8 @@ h1 {
 
 button {
     position: absolute;
-    left: 95%;
+    margin-right: 10px;
+    left: 94%;
     top: 30px;
     cursor: pointer;
     background-color: black;
@@ -33,7 +34,7 @@ button {
     display: inline-block;
     width: 45px;
     height: 22px;
-    left: 90%;
+    left: 89%;
     top: 30px;
 }
 
@@ -151,4 +152,79 @@ body.dark-mode footer {
 
 body.dark-mode footer a {
     color: white;
+}
+
+
+/* Makes the back button and toggle button responsive */
+
+@media screen and (max-width: 1112px ) {
+    button {
+        left: 93%;
+    }
+    .toggle {
+        left: 87%
+    }
+}
+
+@media screen and (max-width: 953px ) {
+    button {
+        left: 92%;
+    }
+    .toggle {
+        left: 85%
+    }
+}
+@media screen and (max-width: 834px ) {
+    button {
+        left: 90%;
+    }
+    .toggle {
+        left: 82%
+    }
+}
+@media screen and (max-width: 667px ) {
+    button {
+        left: 88%;
+    }
+    .toggle {
+        left: 79%
+    }
+}
+@media screen and (max-width: 556px ) {
+    button {
+        left: 86%;
+    }
+    .toggle {
+        left: 76%
+    }
+}
+@media screen and (max-width: 494px ) {
+    .toggle {
+        left: 75%
+    }
+}
+@media screen and (max-width: 476px ) {
+    button {
+        left: 84%;
+    }
+    .toggle {
+        left: 73%
+    }
+}
+@media screen and (max-width: 424px ) {
+    button {
+        top: 12%
+    }
+    .toggle {
+        top: 4%;
+        left: 85%;
+    }
+}
+@media screen and (max-width: 418px ) {
+    button {
+        left: 79%;
+    }
+    .toggle {
+        left: 81%
+    }
 }
